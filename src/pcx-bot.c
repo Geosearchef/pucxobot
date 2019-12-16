@@ -36,7 +36,7 @@
 #include "pcx-buffer.h"
 #include "pcx-curl-multi.h"
 
-#define GAME_TIMEOUT (5 * 60 * 1000)
+#define GAME_TIMEOUT (7 * 24 * 60 * 60 * 1000)
 #define IN_GAME_TIMEOUT (GAME_TIMEOUT * 2)
 
 struct player {
